@@ -1,0 +1,39 @@
+{
+  "name": "key-parser",
+  "version": "2.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "gulp",
+    "test": "mocha",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karo6774/key-parser"
+  },
+  "author": "Karoline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karo6774/key-parser/issues"
+  },
+  "homepage": "https://github.com/karo6774/key-parser#README",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/lodash": "^4.14.124",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-typescript": "^5.0.1",
+    "mocha": "^6.1.4",
+    "through2": "^3.0.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "nearley": "^2.16.0"
+  }
+}
